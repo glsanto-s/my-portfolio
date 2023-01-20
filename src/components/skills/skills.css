@@ -1,0 +1,44 @@
+#skills{
+    background-color: #1b1a17;
+    color: #f3ece0;
+    padding: 20px;
+}
+
+#skills-title{
+    text-align: center;
+    color: #ff007f;
+    font-family: "Inconsolata";
+}
+
+
+#card-img{
+    background-color: #1f1e1b;
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    align-items: center;
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-top: 3rem;
+
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+.container-card:hover{
+    -webkit-filter: none;	
+	filter: none;
+    transition: .8s;
+}
+.container-skills{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

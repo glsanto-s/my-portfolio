@@ -1,0 +1,29 @@
+#footer-title{
+    text-align: center;
+}
+#contato{
+    background-color: #1b1a17;
+    color: #f3ece0;
+    padding: 20px;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#redes-contato{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#redes-contato a{
+    font-size: 25px;
+    color: #f3ece0;
+    text-decoration: none;
+}
+
+#redes-contato a:hover{
+    color: #ff007f;
+}

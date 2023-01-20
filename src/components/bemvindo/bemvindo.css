@@ -1,0 +1,124 @@
+#bemvindo{
+    background-color: #1b1a17;
+    color: #f3ece0;
+    padding: 20px;
+}
+.container-bemvindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#me-title{
+    font-family: "Inconsolata";
+    color: #ff007f;
+    font-size: 54px;
+    position: relative;
+    left: 3rem;
+}
+#side{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#desc{
+    font-family: "Inconsolata";
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    position: relative;
+    left: 3rem;
+    width: 25rem;
+    animation: type 5s steps(60, end) infinite; 
+  }
+#barra{
+    animation: blink 1s infinite;
+}
+#cod{
+    font-size: 10px;
+    color: #ff008057;
+    justify-content: right;
+    z-index: 0;
+    position: relative;
+    right: 150px;
+}
+
+#bolha1{
+    background-color: #ece2d080;
+    width: 15rem;
+    height: 15rem;
+    padding: 1px;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 41%;
+    left: 57%;
+    animation: float 6s ease-in-out infinite;
+}
+#bolha2{
+    background-color: #ff008080;
+    width: 15rem;
+    height: 15rem;
+    padding: 1px;
+    z-index: 1;
+    border-radius:50%;
+    position: absolute;
+    bottom: 35%;
+    left: 65%;
+    animation: float 5s ease-in-out infinite;
+}
+#bolha3{
+    width: 16rem;
+    height: 16rem;
+    padding: 1px;
+    z-index: 1;
+    border-radius:50%;
+    position: absolute;
+    bottom: 34%;
+    left: 59%;
+    animation: float 4s ease-in-out infinite;
+    object-fit: contain;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 100;
+    }
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@media screen and (max-width: 800px) {
+    #bolha1,#bolha2,#bolha3{
+        display: none;
+    }
+  }

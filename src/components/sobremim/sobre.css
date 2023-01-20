@@ -1,0 +1,35 @@
+#sobremim{
+    background-color: #1b1a17;
+    color: #f3ece0;
+    padding: 20px;
+}
+.container-sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.bola1{
+    background-color: #ece2d080;
+    width: 3rem;
+    height: 3rem;
+    padding: 1px;
+    z-index: 1;
+    border-radius: 50%;
+}
+.bola2{
+    background-color: #ff008080;
+    width: 3rem;
+    height: 3rem;
+    padding: 1px;
+    z-index: 1;
+    border-radius:50%;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+}
+#desc-me{
+    padding: 30px;
+    width: 85%;
+}
