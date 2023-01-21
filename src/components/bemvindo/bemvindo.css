@@ -121,4 +121,11 @@
     #bolha1,#bolha2,#bolha3{
         display: none;
     }
+    #desc{
+        position: static;
+        left: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
   }
