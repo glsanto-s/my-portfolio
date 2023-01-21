@@ -132,7 +132,8 @@
     #me-title{
         font-size: 40px;
     }
-    /* body{
-        overflow-x: hidden;
-    } */
+    #side{
+        position: relative;
+        right: 2rem; 
+    }
   }
