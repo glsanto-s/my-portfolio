@@ -118,14 +118,21 @@
 }
 
 @media screen and (max-width: 800px) {
-    #bolha1,#bolha2,#bolha3{
-        display: none;
+    #bolha1,#bolha2,
+    #bolha3{
+        position: absolute;
+        right: 0;
+        top: 10rem;
+        width: 5rem;
+        height: 5rem;
     }
-    #desc{
-        position: static;
-        left: 0;
+    #cod{
+       display: none;
     }
-    body{
+    #me-title{
+        font-size: 40px;
+    }
+    /* body{
         overflow-x: hidden;
-    }
+    } */
   }
