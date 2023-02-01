@@ -137,3 +137,11 @@
         right: 2rem; 
     }
   }
+@media screen and (min-width: 1400px) {
+    #bolha1,#bolha2,
+    #bolha3{
+        position: absolute;
+        right: 0;
+        top: 10rem;
+    }
+  }
