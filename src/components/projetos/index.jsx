@@ -9,6 +9,7 @@ import videoBC from "../../videos/buscacep.mp4";
 import videoTE from "../../videos/temporizador.mp4";
 import videoSE from "../../videos/senha.mp4";
 import videoBO from "../../videos/book.mp4";
+import imgAnimase from "../../images/logo_animase.png";
 // import { Container } from './styles';
 
 function projetos() {
@@ -19,25 +20,26 @@ function projetos() {
           <h2 id="projetos-title">Projetos</h2>
 
             <div id="div-item">
+            <CardP
+                imagem={imgAnimase}
+                titulo={"Anima-Se"}
+                descricao={
+                  "Uma plataforma que tem como objetivo facilitar a adoção de animais, fornecendo a ponte entre o doador a o adotante, além de proporcionar algumas funções para o planejamento da parte do tutor."
+                }
+                linguagem={"React, JavaScript, Spring Boot, Java "}
+                GitHub={"https://github.com/Anima-Se/ProjetoDemoday.git"}
+                Youtube={"https://www.youtube.com/watch?v=MB-lhDUeYB0&t=587s"}
+                
+              />
               <CardP
                 video={videoSB}
                 titulo={"Spring Boot"}
                 descricao={
-                  "Projeto voltado para um CRUD em Spring Boot, na intenção de aprender mais sobre a linguagem utilizada."
+                  "Projeto CRUD em Spring Boot, onde consigo fazer as quatro operações básicas: Create (Criar), Read (Ler), Update (Editar) e Delete (Excluir), na intenção de aprender mais sobre a linguagem utilizada."
                 }
                 linguagem={"React, Java, Spring Boot"}
                 GitHub={"https://github.com/glsanto-s/Projeto_SpringBoot.git"}
                 LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_reactjs-mysql-springboot-activity-7019409842993807360-bjbd?utm_source=share&utm_medium=member_desktop"}
-              />
-              <CardP
-                video={videoTE}
-                titulo={"Temporizador"}
-                descricao={
-                  "Projeto temporizador para aperfeiçoamente da linguagem JS."
-                }
-                linguagem={"HTML, CSS, JavaScript"}
-                GitHub={"https://github.com/glsanto-s/Temporizador.git"}
-                LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_css-html-js-activity-6989285962832863232-8MIK?utm_source=share&utm_medium=member_desktop"}
               />
               <CardP
                 video={videoBC}
@@ -51,6 +53,16 @@ function projetos() {
               />
             </div>
             <div id="div-item">
+            <CardP
+                video={videoTE}
+                titulo={"Temporizador"}
+                descricao={
+                  "Projeto temporizador para aperfeiçoamente da linguagem JS."
+                }
+                linguagem={"HTML, CSS, JavaScript"}
+                GitHub={"https://github.com/glsanto-s/Temporizador.git"}
+                LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_css-html-js-activity-6989285962832863232-8MIK?utm_source=share&utm_medium=member_desktop"}
+              />
               <CardP
                 video={videoSE}
                 titulo={"Gerador de Senhas"}
@@ -70,7 +82,9 @@ function projetos() {
                 linguagem={"React, API SheetDB, CSS"}
                 GitHub={"https://github.com/glsanto-s/stand_fotos.git"}
               />
-              <CardP
+            </div>
+            <div id="div-item">
+            <CardP
                 video={videoBO}
                 titulo={"Landing Page"}
                 descricao={
