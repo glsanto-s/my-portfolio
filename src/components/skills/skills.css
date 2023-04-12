@@ -9,7 +9,11 @@
     color: #ff007f;
     font-family: "Inconsolata";
 }
-
+#imgCard{
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
 
 #card-img{
     background-color: #1f1e1b;
@@ -35,7 +39,7 @@
 	filter: none;
     transition: .8s;
 }
-.container-skills{
+.card-skills{
     display: flex;
     flex-direction: row;
     gap: 10px;

@@ -9,6 +9,7 @@ import videoBC from "../../videos/buscacep.mp4";
 import videoTE from "../../videos/temporizador.mp4";
 import videoSE from "../../videos/senha.mp4";
 import videoBO from "../../videos/book.mp4";
+import videoLO from "../../videos/login.mp4";
 import imgAnimase from "../../images/logo_animase.png";
 // import { Container } from './styles';
 
@@ -32,6 +33,16 @@ function projetos() {
                 
               />
               <CardP
+                video={videoLO}
+                titulo={"Login e Cadastro"}
+                descricao={
+                  "Projeto de login e cadastro para conhecer e aprender mais sobre a linguagem NodeJs."
+                }
+                linguagem={"ReactJs, NodeJs, API, MongoDB"}
+                GitHub={"https://github.com/glsanto-s/login-nodejs.git"}
+                LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_reactjs-nodejs-api-activity-7035597940731592704-Mjr9?utm_source=share&utm_medium=member_desktop"}
+              />
+              <CardP
                 video={videoSB}
                 titulo={"Spring Boot"}
                 descricao={
@@ -41,7 +52,9 @@ function projetos() {
                 GitHub={"https://github.com/glsanto-s/Projeto_SpringBoot.git"}
                 LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_reactjs-mysql-springboot-activity-7019409842993807360-bjbd?utm_source=share&utm_medium=member_desktop"}
               />
-              <CardP
+            </div>
+            <div id="div-item">
+            <CardP
                 video={videoBC}
                 titulo={"Busca Cep"}
                 descricao={
@@ -50,18 +63,6 @@ function projetos() {
                 linguagem={"React, CSS, Api ViaCep"}
                 GitHub={"https://github.com/glsanto-s/Buscador_Cep.git"}
                 LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_reactjs-equipe02-proa-activity-6990413818262642688-Lcmw?utm_source=share&utm_medium=member_desktop"}
-              />
-            </div>
-            <div id="div-item">
-            <CardP
-                video={videoTE}
-                titulo={"Temporizador"}
-                descricao={
-                  "Projeto temporizador para aperfeiçoamente da linguagem JS."
-                }
-                linguagem={"HTML, CSS, JavaScript"}
-                GitHub={"https://github.com/glsanto-s/Temporizador.git"}
-                LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_css-html-js-activity-6989285962832863232-8MIK?utm_source=share&utm_medium=member_desktop"}
               />
               <CardP
                 video={videoSE}
@@ -85,6 +86,16 @@ function projetos() {
             </div>
             <div id="div-item">
             <CardP
+                video={videoTE}
+                titulo={"Temporizador"}
+                descricao={
+                  "Projeto temporizador para aperfeiçoamente da linguagem JS."
+                }
+                linguagem={"HTML, CSS, JavaScript"}
+                GitHub={"https://github.com/glsanto-s/Temporizador.git"}
+                LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_css-html-js-activity-6989285962832863232-8MIK?utm_source=share&utm_medium=member_desktop"}
+              />
+            <CardP
                 video={videoBO}
                 titulo={"Landing Page"}
                 descricao={
@@ -94,6 +105,7 @@ function projetos() {
                 GitHub={"https://github.com/glsanto-s/Projeto_BookShop.git"}
                 LinkedIn={"https://www.linkedin.com/posts/gyovannalimadossantos_css-html-proa-activity-6983396650643820544-EeeY?utm_source=share&utm_medium=member_desktop"}
               />
+            
             </div>
         </div>
       </div>
